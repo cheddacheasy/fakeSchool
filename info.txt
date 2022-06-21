@@ -1,0 +1,37 @@
+This is the start of the Fake data csv file generator I will start with the 
+basics.
+
+
+The first version will be a script that can be ran from the line that will 
+create a csv full of info
+
+
+
+First Wave should have the following:
+First Name
+Last Name
+Sex: Male Female
+  This will help genereate first and last names
+  I may just use the one I already have installed on my machine
+Password generator:
+  12 characters at least
+  18 characters at the most
+Username generator:
+  10
+  also will give corresponding username number in system
+
+Random EmailGenerator
+Total number of individuals 
+
+
+
+3rd wave:
+student GPA
+Classes
+Scores for each class
+Letter grading
+
+
+4th wave make as a web application so people do not have to download from 
+github if they do not want to
+

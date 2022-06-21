@@ -1,0 +1,529 @@
+ClassNum,ClassName,CrHr
+AAA1,New Student Orientation,0
+AGR102,Introduction to Agriculture,3
+AGR105,Range Management,3
+AGR109,Intro to Agriculture Lab,1
+AGR121,Industrial Hemp Production,3
+AGR135,Introduction to Crop Science,3
+AGR204,Principles of Irrigation,3
+AGR205,Landscape Plants for the SW,3
+AGR208,Animal Science,3
+AGR214,Soil Science,4
+AGR230,Feeds and Feeding,3
+AGR235,Introduction to Entomology,4
+AGR237,Equine Science and Management,4
+AGR243,Livestock Production & Mgmt.,3
+AGR255,Agriculture and the Environmnt,3
+AJS101,Intro to Admin of Justice,3
+AJS109,Substantive Criminal Law,3
+AJS126,Ethics and Criminal Justice,3
+AJS224,Field Experience in AJS,1
+AJS225,Criminology,3
+AJS230,The Police Function,3
+AJS240,The Correction Function,3
+AJS275,Criminal Investigations,3
+AMT210,UAS Fundamentals,6
+AMT212,UAS Mechanical Maintenance,14
+ANT101,"Bones,",4
+ANT101,"Bones,4:30 PM",4
+ANT102,Society and Culture,3
+ANT110,Exploring Archaeology,3
+ANT235,Principles of Archaeology,3
+ANT286,Historic Native People of N.A.,3
+ANT287,Archaeology of the Southwest,3
+ART103,Two Dimensional Design/Comp,3
+ART106,Drawing Foundations,3
+ART107,"Sur of World Art,",3
+ART108,Sur of World Art:Renaissance,3
+ART120,Appreciation of Visual Arts,3
+ART130,Paint for Personal Develop I,2
+ART216,Intermediate Drawing,3
+ART217,Advanced Drawing,3
+ART231,Three Dimensional Design/Sculp,3
+ART245,Figure Drawing,3
+ART270,Ceramics I,3
+ART273,Ceramics IIA,3
+ART274,Ceramics IIB,3
+ART275A,Ceramics III,3
+ART280,Painting Foundations,3
+ART281,Intermediate Painting,3
+ART282,Advanced Painting,3
+ART285,Beginning Photography,3
+ART286,Intermediate Photography,3
+ART290,Sculpture I,3
+ART292,Advanced Topics in Art,0.5
+ART292,Advanced Topics in Art-Mural,0.5
+ASL101,American Sign Language I,4
+ASL102,American Sign Language II,4
+ASL201,American Sign Language III,4
+ASL202,American Sign Language IV,4
+AST180,Introduction to Astronomy,4
+AUT101,Intro to Automotive Technology,3
+AUT102,Automotive Elect. Fundamentals,3
+AUT103,Internal Combustion Engines,3
+AUT104,Automotive Brake Systems,3
+AUT105,Automotive Suspension/Steering,3
+AUT106,Automotive Manual Drive System,3
+AUT112,Light Veh Diesel Engine Repair,3
+AUT116,Lt Veh Diesel Intk & Exh Sys,3
+AUT201,Automotive Elect. Sys/Equip,3
+AUT204,Auto Transmiss/axle Diag/Rebld,3
+AUT205,Auto Heating/Ventilation/AC,3
+AUT206,Engine Performance,3
+AUT220,Lt Veh Diesel Sys & Comp Ctrls,3
+AVT211,UAS Avionics,7
+BCT102,Carpentry Fundamentals,4
+BCT109,Construction Safety,3
+BCT113,Concrete,3
+BCT114,Wall Coverings,3
+BCT115,Exterior Finishing,3
+BCT116,Roofing,3
+BCT117,Floor Covering,4
+BCT118,"Doors,12:45 PM",4
+BCT122,HVAC I,4
+BCT127,Blueprint Reading/Estimating,3
+BCT201,Carpentry Framing & Finishing,4
+BCT222,HVAC II,4
+BCT223,HVAC III,4
+BCT225,HVAC IV,4
+BIO100,General Biology (non-majors),4
+BIO105,Environmental Biology,4
+BIO156,Intro Biology Allied Health,4
+BIO160,Intro to Human A&P,4
+BIO181,General Biology I (for majors),4
+BIO182,General Biology II,4
+BIO192,Spec Topics & Apps in Biology,1
+BIO201,Human Anat & Phys I,4
+BIO202,Human Anat & Phys II,4
+BIO205,Microbiology,4
+BIO226,Ecology,4
+BUS104,Business Math,3
+BUS109,Survey of Business,3
+BUS123,Human Resource Management,3
+BUS143,Principles of Management,3
+BUS145,Principles of Marketing,3
+BUS146,Introduction to Accounting,3
+BUS160,Ess Workplace Success Skills,3
+BUS167,Business Communications,3
+BUS172,Quantitative Methods in Bus,3
+BUS183,Starting a Business,3
+BUS201,Financial Accounting,3
+BUS202,Managerial Accounting,3
+BUS219,Business Statistics,3
+BUS224,Field Exp in Business Admin,1
+BUS233,Legal Environment of Business,3
+BUS245,Sem: Trends/Pract in Business,3
+BUS251,Federal Income Taxation,3
+BUS253,Tax Practice and Procedure,3
+BUS283,Small Business Management,3
+BUS285,Electronic Commerce,3
+CHM130,Fundamental Chemistry,4
+CHM151,General Chemistry I,4
+CHM152,General Chemistry II,4
+CHM235,General Organic Chemistry I,4
+CHM236,General Organic Chemistry II,4
+CIS116,Computer Essentials,3
+CIS120,Intro to Information Systems,3
+CIS128,Linux Operating System,4
+CIS129,Intro to Programming Logic,1
+CIS130,Programming Logic,3
+CIS140,Intro to Operating Systems,3
+CIS150,Essentials of Networking,3
+CIS160,Intro to Information Security,3
+CIS161,Network Security,4
+CIS164,Intro Scripting Using Python,4
+CIS179,Applied Technical Writing,3
+CIS181,Computer Applications,3
+CIS185,Internet Essentials,3
+CIS204,C Programming,4
+CIS206,Assembler with Architecture,4
+CIS208,Java Programming,4
+CIS217,Intro to Visual C#.NET Program,4
+CIS220C,Data Structures-C,4
+CIS220J,Data Structures-Java,4
+CIS221,Digital Logic,3
+CIS229,Linux System Administration,4
+CIS236,Microsoft Wrkstation Op Systms,4
+CIS245,Microsoft Server Active Direct,4
+CIS250,Database Management,4
+CIS255,Microsoft PowerShell Scripting,4
+CIS259,Adv Linux Systems Admin,4
+CIS260,Service & Maintenance of PCs,4
+CIS262,Network Support & Trblshooting,4
+CIS263,Network Defense,4
+CIS267,Mobile Security,3
+CIS268,Technical Presentations,3
+CIS270,Systems Analysis,4
+CIS275,Computer Forensics,4
+CIS281,Advanced Computer Applications,3
+CIS287,World Wide Web Development,3
+CIS291,Pract Apps in Cybersecurity,4
+CIS294,Field Exp in Computer Info Sys,1
+CLD110,AWS Cloud Foundations,3
+COM102,Essentials of Communication,3
+COM110,Public Speaking,3
+COM204,Elements of Intercultural Comm,3
+CPD150,Connections for Success,3
+CUL105,Nutrition in Food Service,3
+CUL115,Food Service Sanitation,2
+CUL116,Essential Culinary Skills I,2
+CUL117,Essential Culinary Skills II,3
+CUL204,Food Service Purchasing& Contr,3
+CUL222,Adv Confections & Pastries I,3
+CUL223,Adv Confections & Pastries II,3
+CUL224,Field Exp in Culinary Arts,1
+CUL242,Dining Service Management,3
+CUL280,Adv Tech Gourmet Food Prep I,3
+CUL281,Adv Tech Gourmet Food Prep II,3
+CYB101,Introduction to Cybersecurity,3
+CYB102,Networking Foundations,3
+CYB103,Basic Operating Systems,3
+CYB110,Intermediate Operating Systems,4
+CYB125,Intro Scripting Cybersecurity,4
+CYB201,Cybersecurity for Networking,4
+CYB210,Scripting for Cybersecurity,4
+CYB220,Digital Forensics/Incident Rsp,4
+CYB260,Intro to Cloud Technologies,4
+CYB275,Applied Cyber Operations,4
+CYB290,Operational Cybersecurity,5
+DFT150,Fundamentals of AutoCAD,3
+DFT250,Advanced AutoCAD,4
+DFT270,AutoCAD 3D,4
+DMA110,Digital Imaging I,3
+DMA111,Computer Animation I,3
+DMA198A,Essentials Digital Media Arts,3
+DMA210,Digital Imaging II,3
+DMA260,Graphic Design I,3
+DMA262,Digital Video Production,3
+DMA263,Digital Video Production II,3
+DMA266,Digital Photography,3
+ECE150,Intro Early Childhd Care & Ed,3
+ECE152,Observation/Behavior/Guidance,3
+ECE155,Children's Language Dev,3
+ECE156,Children's Lit & Literacy,3
+ECE158,"Hth,",3
+ECE160,Early Childhood Growth & Dev,3
+ECE161,Understanding Fam/Commun/Diver,3
+ECE170,Curr Dev Early Childhood Edu,3
+ECE172,Teach Strat Early Childhood Ed,3
+ECE173,Admin of ECE Programs,3
+ECN201,Principles of Macroeconomics,3
+ECN202,Principles of Microeconomics,3
+EDU201,Introduction to Education,3
+EDU205,Theoreticl Dynamics of Instruc,3
+EDU222,Intro to Special Education,3
+EDU224,Field Experience in Education,1
+EDU226,Cultural Diversity-Education,3
+EDU230,Classroom Relationships,3
+EDU25,ASVAB Prep and Improvement,2
+EDU298D,College Instruction,3
+EGR102,Principles of Engineering,3
+EGR122,Prog for Engineering & Science,4
+ELT110,Mathematics for Electronics,3
+EMT174,Emergency Medical Technician,8
+EMT174,Emergency Medical Technician,9
+ENG101,Composition,3
+ENG102,English Composition,3
+ENG119,Creative Writing,3
+ENG219,Advanced Creative Writing,3
+ENG220,British Literature I,3
+ENG221,British Literature II,3
+ENG224,American Literature I,3
+ENG225,American Literature II,3
+ENG228,Mythology and Folklore,3
+ENG257,Lit Magazine Prod & Design,3
+ENG260,Irish Literature,3
+ENG95,Basic Writing,3
+ENG96,Intermediate Writing,3
+ESL10,ESL Grammar I,3
+ESL12,ESL Reading I,3
+ESL14,ESL Writing I,3
+ESL16,ESL Oral Communication I,3
+ESL20,ESL Grammar II,3
+ESL22,ESL Reading II,3
+ESL24,ESL Writing II,3
+ESL26,ESL Oral Communication II,3
+ESL30,ESL Grammar III,3
+ESL32,ESL Reading III,3
+ESL34,ESL Writing III,3
+ESL36,ESL Oral Communication III,3
+ESL40,ESL Grammar IV,3
+ESL46,ESL Oral Communication IV,3
+ESL49,ESL Transitions,3
+FON201,Applied Nutrition,3
+FST107,Intro Fire & Emergency Service,4
+FST108,Fire Operations I,4
+FST109,Fire Operations II,4
+FST115,Fire Service App Driver/Op,3
+FST198F,Wildland Fire,1
+FST224,Field Exp in Fire Science Tech,1
+GEO101,Physical Geography,4
+GEO121,World Regional Geography,3
+GLG101,Intro to Geology I Physical,4
+GLG102,Intro to Geology II Historical,4
+GOO101,Google IT Support Professional,3
+GTC105,Mfg Materials/Processes I,3
+HIS110,History of the U.S. 1607-1877,3
+HIS111,History of the U.S. since 1877,3
+HIS229,History of Mexico I,3
+HIS230,History of Mexico II,3
+HIS243,Western Civilization I,3
+HIS244,Western Civilization II,3
+HLT100,Health Technology Careers,3
+HLT101,Medical Terminology,2
+HLT109L,Nursing Assistant-Lab Only,0
+HLT109,Nursing Assistant,5
+HLT111,CPR and First Aid,1
+HLT139,Medical Assistant I,8
+HLT140,Medical Assistant II,12
+HLT151,Home Health Aide I,3
+HLT152,Home Health Aide II,3
+HON101,Introduction to Honors,1
+HON250,Honors: Individual Project,1
+HPE113A,Athletic Conditioning I,2
+HPE113B,Athletic Conditioning II,2
+HPE113C,Athletic Conditioning III,2
+HPE113D,Athletic Conditioning IV,2
+HPE115,Personal Fitness I,2
+HPE117A,Individualized Fitness I,1
+HPE117B,Individualized Fitness II,2
+HPE135,Open Water Scuba Diver,3
+HPE142A,Varsity Rodeo I,1
+HPE142B,Varsity Rodeo II,1
+HPE142C,Varsity Rodeo III,1
+HPE142D,Varsity Rodeo IV,1
+HPE170A,Baseball I,1
+HPE170B,Baseball II,1
+HPE170C,Baseball III,1
+HPE170D,Baseball IV,1
+HPE171A,Men's Basketball I,1
+HPE171B,Men's Basketball II,1
+HPE171C,Men's Basketball III,1
+HPE171D,Men's Basketball IV,1
+HPE172A,Women's Basketball I,1
+HPE172B,Women's Basketball II,1
+HPE172C,Women's Basketball III,1
+HPE172D,Women's Basketball IV,1
+HPE174A,Women's Soccer I,1
+HPE174B,Women's Soccer II,1
+HPE174C,Women's Soccer III,1
+HPE174D,Women's Soccer IV,1
+HPE179,Lifelong Wellness,3
+HPE193,Theory of Coaching Baseball,3
+HPE194,Theory of Coaching Basketball,3
+HPE196,Theory of Coaching Soccer,3
+HUM101,Humanities/Contemporary Life,3
+HUM110,Introduction to Film,3
+HUM111,Introduction to Theatre Arts,3
+HUM200,Film History,3
+HUM206,Cult Stud thru Humanities II,3
+IOS100,Intro to Intel Ops Studies,3
+IOS101,Counterintel Investigations,3
+IOS102,Security Programs,3
+IOS103,Intel Law and Admin of Justice,1
+IOS104,Analytical Process and Product,3
+IOS105,Interrogation Operations,3
+IOS106,Map Reading and Analysis,3
+IOS108,Signal Theory,3
+IOS110,Remote Sensing,3
+IOS111,Info Sec for Intel Operations,1
+IOS112,Imagery Analysis Techniques,3
+IOS114,Reporting of Intelligence Data,3
+IOS115,Briefing Skills,1
+IOS116,Imagery Identification,6
+IOS117,Symbology,3
+IOS118,Intel Prep of the Battlefield,3
+IOS120,Records Management,3
+IOS121,Counterintel Investigations II,3
+IOS122,"Intel,",3
+IOS122,"Intel,TBA-FH",3
+IOS123,Targeting,3
+IOS124,Cellular Communication Fund,3
+IOS131,Pers ID Mehods Battle Forensic,2
+IOS201,Collection Operations,3
+IOS202,Force Protection Ops/Support,3
+IOS203,Combating Terrorism,3
+IOS204,Interrogation Interview Tech,3
+IOS209,Automated Intel Systems,4
+IOS210,Intermediate Remote Sensing,3
+IOS211,Military Decision Making,1
+IOS212,Intermed Imagery Analysis,3
+IOS214,Reporting of Intel Data II,3
+IOS215,Briefing Skills II,1
+IOS221,Counterintel Investigation III,3
+IOS223,Intel Law/Admin of Justice II,1
+IOS225,Analytical Process/Product II,3
+IOS226,Interrogation/Interview TechII,3
+IOS241,Mgt of Intel/Countintel Ops I,4
+IOS242,Mgt of Intel/Countintel Ops II,4
+IOS245,Analysis of Counterintel II,3
+JRN101,Intro to Mass Communications,3
+JRN102,Essentials of News Writing,3
+JRN224,Fld Exp Communic or Media Tech,1
+LEO200,Introduction to LE Technology,2
+LEO201,Legal Aspects of LE,3
+LEO202,Firearms Training for LE,2
+LEO203,Report Writing for LE,2
+LEO204,Physical Cond and Wellness LE,1
+LEO205,Community Relations for LE,2
+LEO206,First Aid for LE,1
+LEO207,Defensive Tactics for LE,1
+LEO208,Tactical Driving for LE,1
+LEO209,Criminal Investigations for LE,4
+LEO210,Criminal Law for LE,3
+LEO211,Patrol Procedures for LE,4
+LEO212,Traffic Procedures for LE,4
+MAT132,Applied Mathematics,3
+MAT142,College Mathematics,3
+MAT151,Precalculus Algebra,4
+MAT154,Math for Elem Ed Majors I,3
+MAT156,Math for Elem Ed Majors II,3
+MAT167,Elements of Statistics,3
+MAT182,Precalculus Trigonometry,3
+MAT212,Calculus for Business,3
+MAT220,Calculus I,5
+MAT227,Discrete Mathematics,3
+MAT231,Calculus II,4
+MAT241,Calculus III,4
+MAT252,Introduction to Linear Algebra,3
+MAT262,Differential Equations,3
+MAT81,Beginning Algebra,4
+MAT90,Precalculus Algebra Support,2
+MAT91,Intermediate Algebra,4
+MUS100,Fundamentals of Music Notation,3
+MUS109A,Orchestra II,1
+MUS109,Orchestra I,1
+MUS110A,Chorus II,1
+MUS110,Chorus I,1
+MUS111A,Band II,1
+MUS111,Band I,1
+MUS112E,String Class Instruction,1
+MUS113A,Individual Instruction - Piano,1
+MUS113E,Individual Instruction-Strings,1
+MUS113F,Individual Instruction -Guitar,1
+MUS115,Voice - Individual Instruction,1
+MUS123,American Popular Music,3
+MUS132,Music Theory I,3
+MUS133,Music Theory II,3
+MUS134,Aural Skills I,1
+MUS135,Aural Skills II,1
+MUS201G,Jazz Ensemble,1
+MUS232,Music Theory III,3
+MUS233,Music Theory IV,3
+MUS236,Repertoire Strategy,1
+MUS260,Music Fund through Experience,3
+NUR112,Introduction to Pharmacology,3
+NUR113,Practical Nursing I,8
+NUR114,Practical Nursing II,9
+NUR115,Practical Nursing III,3
+NUR120,Transition to Practical Nurse,1
+NUR121A,Medication Math I,2
+NUR121B,Medication Math II,2
+NUR122,Nursing I Fundamentals of Nur,12
+NUR123,Nursing II-A,5
+NUR124,Nursing II-B,5
+NUR130,LPN to Professional Nurse I,4
+NUR203,Update on Pharmacology,3
+NUR220,Transition: PN to RN,1
+NUR232,Nursing III,10
+NUR233,Nursing IV,10
+PFT100,Introduction to Aviation,1
+PFT101,Private Pilot Ground School,5
+PFT103,Private Pilot Review,1
+PFT105,Crew Resource Mgtment - Flight,2
+PFT111,Solo Flight Preparation,3.5
+PFT112,Cross-Country Navigation,1.5
+PFT113,Private Pilot Certification,1
+PFT121,Commercial Flight I,3
+PFT122,Aviation Weather,3
+PFT130,Commercial Pilot Ground School,5
+PFT131,Commercial Flight II,3
+PFT204,Instr. Rating Ground School,5
+PFT206,Aircraft Systems,3
+PFT210,Multiengine Rating Grnd School,1
+PFT211,Multi-Engine Rating Flight,1
+PFT214,Instrument Rating Flight I,3.5
+PFT215,Instrument Rating Flight II,1.5
+PFT217,Instrument Pilot Review,1
+PFT218,Commercial Flight III,1
+PFT220,Commercial Pilot Review,1
+PFT230,Flt Instr Fund Grnd School,3
+PFT231,Flt Instructor Airplane G S,5
+PFT235,Flight Inst - Airplane Stage I,1.5
+PFT236,Flight Inst -Airplane Stage II,1.5
+PFT240,Flt Instr Multieng Grnd School,2
+PFT241,Flt Instr Multiengine Flight,2
+PFT250,Flt Instr Instrument G S,3
+PFT251,Flt Inst Instrument Flight,3
+PFT271,UAV Operator,29
+PHI111,Intro to Western Philosophy,3
+PHI113,Introduction to Logic,3
+PHI130,Introduction to Ethics,3
+PHI201,Intro to Eastern Philosophy,3
+PHY111,General Physics I,4
+PHY112,General Physics II,4
+PHY230,Physics with Calculus I,4
+PHY231,Physics with Calculus II,4
+PMD101,Paramedicine I,6
+PMD201,Paramedicine II,7
+PMD202,Paramedicine III,7
+PMD203,Paramedicine IV,10
+PMD204,Paramedicine V,10
+PMD205,Paramedicine VI,9
+PMD206,Paramedicine VII,6
+POS110,American National Government,3
+POS220,Federal & Arizona Constitution,3
+POS221,Arizona Constitution,1
+POS230,World Politics,3
+POS240,Comparative Politics,3
+PSY101,Introduction to Psychology,3
+PSY103,Foundations of Psychology,3
+PSY210,Social Psychology,3
+PSY231,Human Sexuality,3
+PSY240,Developmental Psychology,3
+PSY250,Introduction to Statistics,4
+PSY270,Abnormal Psychology,3
+PSY290,Research Methods,3
+RDG20,Basic Reading,3
+RDG92,College Reading,3
+SOC101,Introduction to Sociology,3
+SOC160,Sociology of Race & Ethnicity,3
+SOC202,Social Problems,3
+SOC212,Sociology of Gender,3
+SOC230,Human Sexuality,3
+SPA101,Elementary Spanish I,4
+SPA102,Elementary Spanish II,4
+SPA201,Intermediate Spanish I,4
+SPA202,Intermediate Spanish II,4
+THE101,Acting I,3
+THE103,Introduction to Theatre Arts,3
+THE110,Theatre Workshop,3
+THE201,Acting II,3
+THE220,Dramatic Structure,3
+UAS121,Remote Sensing and Imagery,3
+VRD130,Virtual Reality Program Logic,3
+VRD144,Virtual Reality Dev in Unity,5
+VRD244,VR Cross-Platform App Dev,4
+VRD264,Unity Programming Stand & App,4
+WLD105,Oxyacetylene Welding,3
+WLD106,Basic Shield Metal Arc Welding,3
+WLD128,Gas Metal Arc Welding,3
+WLD203,Blueprint Interpretation,3
+WLD209,Gas Tungsten Arc Welding,3
+WLD210,Advanced Shield Metal Arc Weld,3
+WLD210,Pipe Welding I,3
+WLD211,Pipe Fitting and Welding,3
+WLD211,Pipe Welding II,3
+WLD212,Adv Shield Metal Arc Weld II,3
+WLD215,Welding Design and Fabrication,3
+WLD217,Pipe Layout and Fitting,3
+WLD218,Advanced GTAW - Soft Metals,2
+WLD218,Advanced GTAW - Soft Metals,3
+WLD219,Advanced GTAW - Hard Metals,2
+WLD219,Advanced GTAW - Hard Metals,3
+WLD220,Advanced GTAW - Exotic Metals,2
+WLD220,Advanced GTAW - Exotic Metals,3
+WLD228,Advanced Gas Metal Arc Welding,2
+WLD228,Advanced Gas Metal Arc Welding,3
+WLD229,Adv Flux-Cored Arc Welding,2
+WLD229,Adv Flux-Cored Arc Welding,3

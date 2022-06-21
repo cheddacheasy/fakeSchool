@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fakedata"
+version = "0.1.0"
+description = "Script that gives the user the ability to genereate multiple types of fake data"
+authors = ["Ellipses <cheddacheezy.00@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+names = "^0.3.0"
+pandas = "^1.4.2"
+Faker = "^13.12.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
