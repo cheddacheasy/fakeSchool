@@ -33,10 +33,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">fake school</h3>
+  <h3 align="center">Pirate Academia</h3>
 
   <p align="center">
-    A minimalistic Python library to generate student data
+    A minimalistic Python library to generate fake student data
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
@@ -114,7 +114,7 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+* pip
   ```sh
   npm install npm@latest -g
   ```
