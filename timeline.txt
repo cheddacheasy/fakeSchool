@@ -96,3 +96,26 @@ as of June 7th 2:14 am
 ==> upload to github 
 ==> work on creating as a python package to add to your system
 ==> first update will be function to create a csv file with students on there
+
+
+
+as of July 19th 4:36pm
+Only a couple more test to go for the randomFile.py full of all the functions
+Then need to write test for the classes that generate the random student
+test out in Jupyter notebook for insurance
+Then finish the read me for walkthrough of the installation
+--> may need to see how to keep poetry file so it does all the installs 
+for a randome user, like all the dependencies
+--> publish it
+--> may turn into a PyPi package
+First issue will be to add docstrings
+Second will be to add ability to generate spreadsheets for easy use
+
+
+as of July 23rd 1:50am
+Completed all the tests including tests for the classes
+next thing would be is to fill out the read me on how to install this package
+--> may need to make some pushes to the repo and update the local one as well
+-->push to beta branch first before anything else
+next would be completing the documentation and updating the structure
+and create a new branch with new updates and cleaned up file structure

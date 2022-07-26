@@ -4,7 +4,7 @@ from faker import Faker
 fake = Faker()
 
 # add repr method maybe or leave it for person_info
-@dataclass(init=False)
+@dataclass
 class Person:
     person_full_name: str = field(init=False)
     first_name: str = field(init=False)
@@ -33,7 +33,7 @@ class Person:
         print("ID:", self.student_id)
         print("Phone Number: ", self.student_phone_number)
         print("SSID: ", self.student_ssid)
-        print("Address: ", self.student_address)
+        print("Address: ", self.student_ssid)
 
 
 @dataclass
@@ -44,7 +44,7 @@ class Student(Person):
     college_hour_status: str = field(init=False)
     current_credit_hours: int = field(init=False)
     total_credit_hours: int = field(init=False) 
-    student_gpa_current: int = field(init=False)
+    student_gpa_current: float  = field(init=False)
     graduation_student_status: bool = field(init=False) 
     student_full_name: str = field(init=False)
 
@@ -78,7 +78,5 @@ class Student(Person):
         print("Graduation Status: ", self.graduation_student_status)
 
 
-User = Person()
 test_student = Student()
-test_student.person_info()
 test_student.college_info()

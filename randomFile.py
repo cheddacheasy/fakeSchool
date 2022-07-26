@@ -24,7 +24,7 @@ def full_name() -> str:
     return name
 
 
-def institution(college_email: Optional[str] = None) -> str:
+def institution(college_email: str) -> str:
     college_choice: str
     college2: str
     school_list: Tuple[str, str]
@@ -36,10 +36,15 @@ def institution(college_email: Optional[str] = None) -> str:
         if college_email in y:
             college_choice = x
             return college_choice
+    
+    """
+    may need to add a statement to address the condition if the email
+    does not exist
+    """
 
 
 # email format take url from file and strip to format
-def stud_email(student_name: Optional[str] = None) -> str:
+def stud_email(student_name: str) -> str:
     student_email: str
     url_list: List[str] = []
     extension_list: List[str] = []
@@ -47,6 +52,10 @@ def stud_email(student_name: Optional[str] = None) -> str:
     sep2: str = ".org"
     sep3: str = ".com"
 
+    if not isinstance(student_name, str):
+        raise TypeError("student name given was not a string")
+    # may want to add if a student_name was not provided,
+    # the ability to generate a full name
     # open the file
     data = pd.read_csv("Institutions/us_universities.csv")
     url_list = data['url'].tolist()
@@ -71,7 +80,7 @@ def stud_email(student_name: Optional[str] = None) -> str:
     return student_email
 
 
-def student_id_number() -> str:
+def student_id_number() -> int:
     student_number: int
 
     student_number = random.randint(100000, 999999)
@@ -95,7 +104,10 @@ def student_status() -> str:
 
 def student_credit_hours(credit_status: str) -> int:
     credit_hours: int
-
+    credit_status_list = ["Full time", "3/4 time", "Part time", "Less than half"]
+    if credit_status not in credit_status_list:
+        raise ValueError("The credit status given is not an option listed")
+    # may need to add a case if a credit status is not correct
 
     match credit_status:
         case "Full time":
@@ -154,6 +166,11 @@ def student_year() -> str:
 
 def credits_completed(degree_type: str) -> int:
     completed_credits: int
+    # check to make sure that what is passed down is in the list
+    # graduate, Associate, Bachelor
+    degree_types_list = ["Graduate", "Associate", "Bachelor"]
+    if degree_type not in degree_types_list:
+        raise ValueError("The Degree type given is no an option")
     if degree_type != "Graduate":
         if degree_type == "Associate":
             completed_credits = random.randint(0, 60)
@@ -169,6 +186,11 @@ def credits_completed(degree_type: str) -> int:
 
 def graduation_status(credits_earned: int, degree_type: str) -> bool:
     status: bool = False
+    degree_types_list = ["Graduate", "Associate", "Bachelor"]
+    if credits_earned < 0:
+        raise ValueError("The credits earned is less than 0")
+    if degree_type not in degree_types_list:
+        raise ValueError("The Degree type given is no an option")
     if credits_earned == 60 and degree_type == "Associate":
         status = True
         return status
