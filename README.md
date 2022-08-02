@@ -33,7 +33,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Pirate Academia</h3>
+  <h3 align="center">Fake School (In Progress) </h3>
 
   <p align="center">
     A minimalistic Python library to generate fake student data
@@ -136,7 +136,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
 1. Clone the repo
    ```sh
-   git clone 
+   git clone https://github.com/cheddacheasy/fakeSchool.git
    ```
 
 
