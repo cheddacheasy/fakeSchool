@@ -105,18 +105,25 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 
 
+
+## Compatibility
+Fake School only supports Python 3.10 and above for the time being. If your system does not support Python 3.10, my recommendation would be to use Poetry and pyenv to setup a vrtiual environemnt to use this package. 
+
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+T
 
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* pip
+* pandas
+* names
+* Faker
   ```sh
-  npm install npm@latest -g
+  pip install pandas
+  pip install names
+  pip install Faker
   ```
 
 ### Installation
