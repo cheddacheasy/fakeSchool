@@ -118,11 +118,15 @@ T
 
 This is an example of how to list things you need to use the software and how to install them.
 * pandas
-* names
-* Faker
   ```sh
   pip install pandas
+  ```
+* names
+  ```sh
   pip install names
+  ```
+* Faker
+  ```sh
   pip install Faker
   ```
 
