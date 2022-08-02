@@ -94,8 +94,6 @@ I do understand that you cannot use a Swiss army knife for every problem, especi
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
 * [pandas](https://pandas.pydata.org/)
 * [names](https://github.com/treyhunner/names)
 * [Faker](https://faker.readthedocs.io/en/master/)
@@ -116,7 +114,7 @@ T
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+The following commands should be able to give you the most up to date of all the prerquisites.
 * pandas
   ```sh
   pip install pandas
@@ -134,7 +132,7 @@ This is an example of how to list things you need to use the software and how to
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Clone the repo
+1. Clone the repo into your project folder
    ```sh
    git clone https://github.com/cheddacheasy/fakeSchool.git
    ```
@@ -146,7 +144,42 @@ _Below is an example of how you can instruct your audience on installing and set
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-There are two different type of objects that you can create with fake school. You can create a student object that contain information that revolves around academia portion associated with a student. For example, you would The other type of student object has data centered around the administration portion associated with a student. For example you would see the students name, Social Security Id, Home address.
+* Object creation
+
+    There are two different type of objects that you can create with fake school. You can create a student object that contain information that revolves around academia portion associated with a student. For example, you would The other type of student object has data centered around the administration portion associated with a student. For example you would see the students name, Social Security Id, Home address.
+    
+    
+  * admininstrative student object
+
+  ```sh
+   import student as st
+   
+   # this will generate a random student that will be associated with the administration 
+   person1 = st.Person()
+   
+   # this will produce the administration portion associated with the student object
+   person1.person_info()
+    
+   ```
+  * academia student object
+   ```sh
+     import student as st
+
+     # this will generate a random student that will be associated with the academia 
+     student1 = st.Student()
+
+     # this will produce the academia portion associated with the student object
+     person1.college_info()
+
+     ```
+ 
+ 
+ * Method/ Function
+  * Functions
+    If you are inteserest just in using specific functions, most of these function are extensions from the Faker module 
+  * Object Attributes
+    This section will cover some of the extenisve attributes you can access in an object whether creating an administrative or academic student object
+
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
