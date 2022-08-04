@@ -1,11 +1,5 @@
 <div id="top"></div>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
+
 
 
 
@@ -17,12 +11,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
@@ -105,12 +93,11 @@ I do understand that you cannot use a Swiss army knife for every problem, especi
 
 
 ## Compatibility
-Fake School only supports Python 3.10 and above for the time being. If your system does not support Python 3.10, my recommendation would be to use Poetry and pyenv to setup a vrtiual environemnt to use this package. 
+Fake School only supports Python 3.10 and above for the time being. If your system does not support Python 3.10, my recommendation would be to use Poetry and pyenv to setup a vrtiual environemnt to use this package inside of your project directory. 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-T
 
 ### Prerequisites
 
@@ -180,12 +167,12 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- ROADMAP -->
 ## Roadmap
 
-- [] Add Methods to README
-- [] Add docstrings to methods and functions
+- [ ] Add Methods to README
+- [ ] Add docstrings to methods and functions
 - [ ] Add information about testing 
 - [ ] Add CSV compatibility
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+See the [open issues]([https://github.com/othneildrew/Best-README-Template](https://github.com/cheddacheasy/fakeSchool.git)/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
