@@ -1,0 +1,121 @@
+As of May 23rd:
+
+>
+got all 3 generators to work for wave 1
+file header generator
+things to add:
+writing data names to file 
+in wave 2 or 3 add sex field 
+
+>
+some idea notes to add
+versions of the file should be accessible for the user:
+bank data 
+social media 
+general information
+user ip address port numbers to create a nice port scanner
+different types would be really cool to add
+may add loop for the guys names module so you can spit out more than one name
+try to get wave 1 done by May 30th
+
+
+May 24th
+May want to rethink this fake data thing and
+just add faker integration for creating a csv file for ue
+
+also going to add some name things to names module:
+Names for England
+also nameMains for generating multiple names for
+first name
+Last name
+Both
+
+May 24th
+Faker python already has a lot of the ideas listed so we can skip and go to create
+the school faker project this should not be too bade since create a bunch before
+GPA generator should be nicer and not as harsh
+GPA-->
+  A student
+  B student
+  C student 
+  D student and below
+  should generate a GPA in these given ranges
+
+may need to web scrape for courses for each university to get the info needed
+Build a student with:
+> course hours per semester
+> year
+> undergradute, graduate, post-graduate
+> type of degree associate, bachelor, etc
+> 
+
+as of May 24th 20:40
+>created a everything listed above except course hours, undergradaute, degree type
+>add other things then start testing with pytest
+>put on github then publish to pyPi
+
+
+as of May 26th 5:00p
+> need to add graduation status function
+> need to add total hours completed
+> what the person is studying
+--> need to find a list of degree fields
+--> create a student object with functions
+--> add docstrings for student object and docstrings for functions
+also I can pull from each module the next goal with the student object is figuring
+out which methods I want and where they need to be for best use in object
+>function to add
+--> create a certain amount of objects wanted by the user
+
+as of May 27th 2:30 am
+need to make some changes in the degree type plus
+everythinf from May 26th
+
+as of May 30th 12:00 am
+added graduation status need to add something in the class function
+added total hours
+>need to add a function that will generate a csv of fake data
+>documenation and testing need to be thought about next as well
+>then start to move things to github
+>may need to add some fakerinformation like address and ssid 
+>also need to find list of degree types
+>may need to create a web scrapped and go by each university to find this information
+>may pull from a website from the mean time
+May 30th 21:11
+> added ssid, phone number, and address
+> seperate info file from school function file
+
+as of June 7th 2:14 am
+>got the student class to inherit from the user info class
+> everythin works in those regards
+> added address, ssid, 
+> next:
+==> add degree types
+==> write some testing
+==> format for github
+==> upload to github 
+==> work on creating as a python package to add to your system
+==> first update will be function to create a csv file with students on there
+
+
+
+as of July 19th 4:36pm
+Only a couple more test to go for the randomFile.py full of all the functions
+Then need to write test for the classes that generate the random student
+test out in Jupyter notebook for insurance
+Then finish the read me for walkthrough of the installation
+--> may need to see how to keep poetry file so it does all the installs 
+for a randome user, like all the dependencies
+--> publish it
+--> may turn into a PyPi package
+First issue will be to add docstrings
+Second will be to add ability to generate spreadsheets for easy use
+
+
+as of July 23rd 1:50am
+Completed all the tests including tests for the classes
+next thing would be is to fill out the read me on how to install this package
+--> may need to make some pushes to the repo and update the local one as well
+-->push to beta branch first before anything else
+next would be completing the documentation and updating the structure
+and create a new branch with new updates and cleaned up file structure

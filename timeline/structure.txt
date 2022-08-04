@@ -1,0 +1,49 @@
+First wave functions
+Functions:
+
+Random NameGenerator
+==> Use for FirstName
+==> Use for LastName
+
+Random SexGenerator
+==>Works with Random NameGenerator
+
+Random PasswordGenerator
+==> Between 12-18 characters
+==> at 2 charcters 0-9
+==> to figure out number of uppercase random select that number 1-12
+====> then for lowercase supbtrace uppercase number from 16 then you have lowercase selection
+==> for special characters 1-4 random select 
+==>overall for random number generator to choose character figure best one to use
+====> then maybe edit and build one thats could be integrated for hash development
+
+
+Random EmailGenerator
+==>could start by concatting firstname and lastname and randomly choose from a list of common
+====> extensions like gmail.com, yahoo.com, and etc.
+**version 2 could incorporate adjectives, names, nouns, numbers,and random extensions:
+**** for example catlover109@gmail.com. 
+
+Random UsernameGenerator
+==> 10-12 characters
+==> could be email address
+**version 2 could be random username generator
+==> certain amount of characters aA-zZ, 0-9,
+====> maybe special charcters could be a 3rd evolution
+
+** maybe need to add/ update this file with more functions
+
+
+student object/ class
+First Name
+Last Name
+studentID
+college of attendants
+** need to add degree field
+email address
+degree_type
+college_year
+college_hours
+credit_hours
+student_gpa
+

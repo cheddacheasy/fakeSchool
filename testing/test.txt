@@ -1,0 +1,14 @@
+this is the test file for the forged academia project
+
+
+test for random file
+-- test to make sure functions take the correct arguments
+-- return values based off of each function
+-- add doc strings to describe each function
+
+
+test for student
+-- make sure classes do not take any input "need to be frozen"
+-- write docstrings for the classes
+-- test the functions to not take any inputs
+-- may need to write some error messages for all of them
