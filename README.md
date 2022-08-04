@@ -70,7 +70,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 When I would work on some projects sometimes I found that I needed fake data that would be centered around a student demographic. When I would scroll through Github I found myself finding randome data generators for personal information; if I did find a random generator, it was in a langauge I was not familar with or it was not in Python. So in short I did not find something that could solve my data problem and often I would be orchestrating different random generators and spending more time create random generating data then working on the bigger problem that needed rando data. Now that I have time, I decided to create a randome student generator.
 
@@ -171,6 +170,7 @@ _Below is an example of how you can instruct your audience on installing and set
 - [ ] Add docstrings to methods and functions
 - [ ] Add information about testing 
 - [ ] Add CSV compatibility
+- [ ] Clean up Acknowldgement section
 
 See the [open issues]([https://github.com/cheddacheasy/fakeSchool.git/issues]) for a full list of proposed features (and known issues).
 
@@ -208,7 +208,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Larry White Jr. - cheddacheasy.00@gmail.com
 
 Project Link: [https://github.com/cheddacheasy/fakeSchool.git](https://github.com/cheddacheasy/fakeSchool.git)
 
@@ -216,7 +216,7 @@ Project Link: [https://github.com/cheddacheasy/fakeSchool.git](https://github.co
 
 
 
-<!-- ACKNOWLEDGMENTS -->
+<!-- ACKNOWLEDGMENTS
 ## Acknowledgments
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
@@ -229,6 +229,7 @@ Use this space to list resources you find helpful and would like to give credit 
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
 * [React Icons](https://react-icons.github.io/react-icons/search)
+-->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
