@@ -172,7 +172,7 @@ _Below is an example of how you can instruct your audience on installing and set
 - [ ] Add information about testing 
 - [ ] Add CSV compatibility
 
-See the [open issues]([https://github.com/othneildrew/Best-README-Template](https://github.com/cheddacheasy/fakeSchool.git)/issues) for a full list of proposed features (and known issues).
+See the [open issues]([https://github.com/cheddacheasy/fakeSchool.git/issues]) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -210,7 +210,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/cheddacheasy/fakeSchool.git](https://github.com/cheddacheasy/fakeSchool.git)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
