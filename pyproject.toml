@@ -5,7 +5,7 @@ description = "Script that gives the user the ability to genereate multiple type
 authors = ["Ellipses <cheddacheezy.00@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = ">=3.8,<4.0"
+python = "^3.10"
 names = "^0.3.0"
 pandas = "^1.4.2"
 Faker = "^13.12.0"

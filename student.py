@@ -1,4 +1,4 @@
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field 
 import randomFile
 from faker import Faker
 fake = Faker()
@@ -78,5 +78,3 @@ class Student(Person):
         print("Graduation Status: ", self.graduation_student_status)
 
 
-test_student = Student()
-test_student.college_info()
