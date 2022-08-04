@@ -26,6 +26,7 @@
   <p align="center">
     A minimalistic Python library to generate fake student data
     <br />
+    <!--
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
     <br />
@@ -34,6 +35,7 @@
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
     ·
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+  -->
   </p>
 </div>
 
@@ -122,6 +124,11 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh
    git clone https://github.com/cheddacheasy/fakeSchool.git
    ```
+2. Just make sure to include the module in the top of your project file. Hop to the usage section to see what is available.
+  ```sh
+  # my preference when using this module
+  import student as st
+  ```
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -171,6 +178,7 @@ _Below is an example of how you can instruct your audience on installing and set
 - [ ] Add information about testing 
 - [ ] Add CSV compatibility
 - [ ] Clean up Acknowldgement section
+- [ ] Create PyPi project
 
 See the [open issues]([https://github.com/cheddacheasy/fakeSchool.git/issues]) for a full list of proposed features (and known issues).
 
