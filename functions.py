@@ -16,16 +16,38 @@ import os
 
 # sex tells the function if you want a male, female, or no sex
 def randFullName(sex: int)->str:
+    """
+    Returns a randomly generated first and last name based on sex.
+
+            Parameters:
+                sex (int) : integer that represents the sex of the name
+                    0 = male
+                    1 = female
+                    any other integer will produce a random male or femal full name
+
+            Return:
+                name (str) : String of first name that represent a male or female sex
+    """
+
     if sex == 0:
-        name = names.get_full_name()
-    elif sex == 1:
         name = names.get_full_name(gender='male')
-    else:
+    elif sex == 1:
         name = names.get_full_name(gender='female')
+    else:
+        name = names.get_full_name()
     return name
 
 def randFullNameMain() -> None:
-    print("How many first names would you like to generate?")
+    """
+    Creates a list of randomly generated full names
+            parameters:
+                None
+
+            return:
+                none
+    """
+
+    print("How many full names would you like to generate?")
     numNames = int(input(">"))
     namesList = []
     i = 0

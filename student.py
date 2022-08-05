@@ -130,7 +130,7 @@ class Student(Person):
         self.graduation_student_status = randomFile.graduation_status(self.total_credit_hours, self.degree_type)
 
     def college_info(self) -> str:
-         """
+        """
         display the academic information of the student object
         generated
 
