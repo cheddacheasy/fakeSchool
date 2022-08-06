@@ -8,6 +8,15 @@ import pandas as pd
 
 # generates random password for the student
 def password() -> str:
+    """
+    Returns a randomly generated password.
+
+            Parameters:
+                None
+            Return:
+                password_final (str) : String that represents the randomly generated password.
+    """
+
     lower = string.ascii_lowercase
     upper = string.ascii_uppercase
     num = string.digits
@@ -20,11 +29,29 @@ def password() -> str:
 
 
 def full_name() -> str:
+    """
+    Returns a randomly generated full name.
+
+            Parameters:
+                None
+            Return:
+                name (str) : String that represents the randomly generated full name.
+    """
+
     name = names.get_full_name()
     return name
 
 
 def institution(college_email: str) -> str:
+    """
+    Returns a United States based college institution that is associated with the college email.
+
+            Parameters:
+                college_email (str) : string that represents the college institution email.
+            Return:
+                college_choice (str) : String that represents the college institution stripped from the college_email.
+    """
+
     college_choice: str
     college2: str
     school_list: Tuple[str, str]
@@ -36,7 +63,6 @@ def institution(college_email: str) -> str:
         if college_email in y:
             college_choice = x
             return college_choice
-    
     """
     may need to add a statement to address the condition if the email
     does not exist
@@ -45,6 +71,15 @@ def institution(college_email: str) -> str:
 
 # email format take url from file and strip to format
 def stud_email(student_name: str) -> str:
+    """
+    Returns a randomly generated United States based college email.
+
+            Parameters:
+                student_name (str) : String that represents the student that needs an email.
+            Return:
+                student_email (str) : String that represents the college email that belongs to the student that was passed as student_name.
+    """
+
     student_email: str
     url_list: List[str] = []
     extension_list: List[str] = []
@@ -81,6 +116,15 @@ def stud_email(student_name: str) -> str:
 
 
 def student_id_number() -> int:
+    """
+        Returns a randomly generated 6 digit identification number to represent a student.
+
+                Parameters:
+                    None
+                Return:
+                    student_number (int) : Integer that represents a 6 digit identification number.
+    """
+
     student_number: int
 
     student_number = random.randint(100000, 999999)
@@ -88,6 +132,15 @@ def student_id_number() -> int:
 
 
 def student_status() -> str:
+    """
+        Returns a randomly generated college credit status. For example Full Time or Part Time.
+
+                Parameters:
+                    None
+                Return:
+                    status (str) : String that represents a randomly generated college status.
+    """
+
     status: str
     credit_status: Dict[str] = {}
 
@@ -103,6 +156,15 @@ def student_status() -> str:
 
 
 def student_credit_hours(credit_status: str) -> int:
+    """
+        Returns a randomly generated amout of credit hours based on the credit status given as an argument.
+
+                Parameters:
+                    credit_status (str) : String that represents the current credit status of a student. For example part time or full time.
+                Return:
+                    credit_hours (int) : Randomly generated integer that represents the number of credits that reflects the credit status.
+    """
+
     credit_hours: int
     credit_status_list = ["Full time", "3/4 time", "Part time", "Less than half"]
     if credit_status not in credit_status_list:
