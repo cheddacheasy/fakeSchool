@@ -293,8 +293,8 @@ def graduation_status(credits_earned: int, degree_type: str) -> bool:
                         degree_type (str) : represents the type of degree: Associate, Bachelor, or Graduate
                     Return:
                         status (bool) : represents whether the student has completed enough credits to graduate.
-            """
-       
+    """
+
     status: bool = False
     degree_types_list = ["Graduate", "Associate", "Bachelor"]
     if credits_earned < 0:
