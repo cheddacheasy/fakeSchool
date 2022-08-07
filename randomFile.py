@@ -184,6 +184,15 @@ def student_credit_hours(credit_status: str) -> int:
 
 
 def student_gpa() -> int:
+     """
+        Returns a randomly generated gpa.
+
+                Parameters:
+                    None
+                Return:
+                    gpa (int) : Randomly generated integer that represents a students gpa.
+    """
+
     gpa: int
     student_type: List[str]
     letter_grade: str
@@ -204,6 +213,15 @@ def student_gpa() -> int:
 
 
 def student_Degree() -> str:
+     """
+            Returns a randomly generated degree level. For example an associate level or bachelor lever degree.
+
+                    Parameters:
+                        None
+                    Return:
+                        degree_choice (str) : Randomly generated degree level.
+    """
+
     degree: List[str]
     degree_choice: str
 
@@ -216,6 +234,15 @@ def student_Degree() -> str:
 
 
 def student_year() -> str:
+    """
+            Returns a randomly generated student grade year. For example freshman or senior.
+
+                    Parameters:
+                        None
+                    Return:
+                        year_status (str) : Randomly generated student grade level.
+    """
+
     year_choice: List[str]
     year_status: str
 
@@ -227,6 +254,17 @@ def student_year() -> str:
 
 
 def credits_completed(degree_type: str) -> int:
+    """
+            Returns a randomly generated amount of credits completed based on the degree type passed to the function.
+            For example if degree_type is associate completed_credits would between 0 and 60.
+
+                    Parameters:
+                        degree_type (str) : represents the type of degree: Associate, Bachelor, or Graduate
+                    Return:
+                        completed_credits (int) : Randomly generated amount of credits based on the degree type.
+    """
+
+
     completed_credits: int
     # check to make sure that what is passed down is in the list
     # graduate, Associate, Bachelor
@@ -247,6 +285,16 @@ def credits_completed(degree_type: str) -> int:
 
 
 def graduation_status(credits_earned: int, degree_type: str) -> bool:
+    """
+            Returns a boolean based on credits_earned and degree_type that represents whether a student has graduated.
+
+                    Parameters:
+                        credits_earned (int) : represents the total amout of credits completed in the degree
+                        degree_type (str) : represents the type of degree: Associate, Bachelor, or Graduate
+                    Return:
+                        status (bool) : represents whether the student has completed enough credits to graduate.
+            """
+       
     status: bool = False
     degree_types_list = ["Graduate", "Associate", "Bachelor"]
     if credits_earned < 0:
