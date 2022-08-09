@@ -1,0 +1,9 @@
+This branch is for testing out the doc test module in python for the testing files
+for the project to ensure they work well
+
+Basic outline:
+Create a test file
+run tests in said test file from tutorial
+Chip away a test at a time in test module to see that it works the way I need it to
+
+
