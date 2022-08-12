@@ -1,6 +1,7 @@
 '''
 This will contain and hold all functions for the file creator,
-may break this up into individual files but we will see
+The purpose of this file is to also be a rough outline for the 
+Whole Lotta Fake application
 '''
 
 import string
@@ -58,7 +59,7 @@ def randFullNameMain() -> None:
         i += 1
 
 
-def randFirstName(sex: int)->str:
+def randFirstName(sex: int) -> str:
     """
     returns a randomly generated first name based on sex.
 
