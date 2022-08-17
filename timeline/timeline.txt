@@ -119,3 +119,9 @@ next thing would be is to fill out the read me on how to install this package
 -->push to beta branch first before anything else
 next would be completing the documentation and updating the structure
 and create a new branch with new updates and cleaned up file structure
+
+
+as of August 16th
+Completed documentation for the functions and csv module
+need to work on the csv module and testing modules for functions and csv module
+
