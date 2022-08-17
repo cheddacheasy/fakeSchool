@@ -251,8 +251,16 @@ def headerPrompt(nameChoice: int)->str:
         print("Error in generating file header")
 
 
+def headerBuild(headerTitle: str, nameChoice: int) -> list[bool, str]:
+    """
+        Receives the user input choice from the user in regards to their randomziation choice
 
-def headerBuild(headerTitle: str, nameChoice: int)->list[bool, str]:
+                parameters:
+                    None
+                return:
+                    UserChoice (int) : represents the user choice for name randomization 
+    """
+
     header = []
     needs = [True]
     # grab/create file name
