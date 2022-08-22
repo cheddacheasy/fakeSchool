@@ -226,21 +226,20 @@ def menuSwitchBoard(userChoice: int):
             sys.exit("Exiting.... Have a nice day")
             return 0
         case 1:
-            os.system('clear')
+            # os.system('clear')
             fileInfo = randFirstNameMain()
             final_file_Status = fileBuilder(fileName, fileInfo)
-            sys.exit("Exiting.... Have a nice day")
             
         case 2:
-            os.system('clear')
+            # os.system('clear')
             fileInfo = randLastNameMain()
             final_file_Status = fileBuilder(fileName, fileInfo)
-            sys.exit("Exiting.... Have a nice day")
         case 3:
-            os.system('clear')
+            # os.system('clear')
             fileInfo = randFullNameMain()
             final_file_Status = fileBuilder(fileName, fileInfo)
-            sys.exit("Exiting.... Have a nice day")
+
+    fileCompletionStatus(final_file_Status, fileName)
 
 
 def headerPrompt(nameChoice: int) -> str:
@@ -260,24 +259,26 @@ def headerPrompt(nameChoice: int) -> str:
             print("Press N: To re-enter a new file name")
             choice = input(">")
             if choice == "Y" or choice == "y":
+                # os.system('clear')
+                values = headerBuild(testName2, nameChoice)
                 break
-            os.system('clear')
-            values = headerBuild(testName2, nameChoice)
         print(f"Your file name: {testName}")
         print("Press Y: To continue")
         print("Press N: To re-enter a new file name")
         choice = input(">")
         if choice == "Y" or choice == "y":
+        # os.system('clear')
+            print(testName, nameChoice)
+            values = headerBuild(testName, nameChoice)
             break
-        os.system('clear')
-        values = headerBuild(testName, nameChoice)
-
+    return values
     # need to figure this out getting out of range error
+    '''
     if values[0]:
         print("Filename ", values[1])
     else:
         raise ValueError("Error in generating file header. Please check your name convention")
-
+    '''
 
 def headerBuild(headerTitle: str, nameChoice: int) -> list[bool, str]:
     """
@@ -310,7 +311,6 @@ def headerBuild(headerTitle: str, nameChoice: int) -> list[bool, str]:
     with open(fileName, 'w', encoding='UTF8') as f:
         writer = csv.writer(f)
         writer.writerow(header)
-    fileName.close()
     needs.append(fileName)
     return needs
 
@@ -322,16 +322,23 @@ def fileBuilder(fileName: str, fileInfo: list[str]) -> bool:
 
     fileStatus = bool
     fileLoad = list[str]
-    if path.exists(fileName):
+    if os.path.exists(fileName):
         # open and add the info through a loop
         fileLoad = zip(fileInfo)
-        with open(fileName, 'w') as s:
+        with open(fileName, 'a') as s:
             w = csv.writer(s)
             for row in fileLoad:
                 w.writerow(row)
             fileStatus = True
             return fileStatus
     return ValueError("Was not able to add names to the file")
+
+
+def fileCompletionStatus(fileStatus: bool, fileName: str) -> None:
+    if fileStatus is True:
+        print(f"The file {fileName} has been succesffully created and filled")
+        return
+    return ValueError(f"The file {fileName} was succesffully created but not filled")
 
 
 def main():

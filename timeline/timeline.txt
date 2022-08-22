@@ -125,3 +125,16 @@ as of August 16th
 Completed documentation for the functions and csv module
 need to work on the csv module and testing modules for functions and csv module
 
+
+as of August 22nd midnight
+Need to figure out index out of range problem in functions.py line 275
+Write testing functions for the functions.py module
+Add  to github new ability to generate csv file
+
+
+as of August 22nd mid day
+Wrote out csv module and it is full functional
+next to dos
+++write out test module(s) for csv and functions module
+Add to github new ability to generate csv file
+
