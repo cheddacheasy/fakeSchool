@@ -13,6 +13,7 @@ from csv import writer
 import names
 import sys
 import os
+from os import path
 
 
 # sex tells the function if you want a male, female, or no sex
@@ -199,34 +200,51 @@ def infochoice() -> int:
 # finish documentation
 # write out error handling 
 # write out test for this file
+
 def menuSwitchBoard(userChoice: int):
+    """
+        Receives the user input choice from the user in regards to their randomziation choice
+        from the menu display and guides the user to their respective choice.
+
+                parameters:
+                    userChoice
+                return:
+                    UserChoice (int) : represents the user choice for name randomization 
+    """
+    fileHeaderInfo = list[bool, str]
+    fileName = str
+    fileInfo = list[str]
+    final_file_Status = bool
     if type(userChoice) != int or userChoice < 0 or userChoice > 5:
         raise ValueError("Invalid Choice")
-    fileName = headerPrompt(userChoice)
+
+    fileHeaderInfo = headerPrompt(userChoice)
+    fileName = fileHeaderInfo[1]
+
     match userChoice:
         case 0:
             sys.exit("Exiting.... Have a nice day")
             return 0
         case 1:
             os.system('clear')
-            randFirstNameMain()
-            return 1
+            fileInfo = randFirstNameMain()
+            final_file_Status = fileBuilder(fileName, fileInfo)
+            sys.exit("Exiting.... Have a nice day")
+            
         case 2:
             os.system('clear')
-            randLastNameMain()
-            return 2
+            fileInfo = randLastNameMain()
+            final_file_Status = fileBuilder(fileName, fileInfo)
+            sys.exit("Exiting.... Have a nice day")
         case 3:
             os.system('clear')
-            randFullNameMain()
-            return 3
-
-def buildFile(nameChoice: int)->bool:
-    # header creation
-    # actuall adding info from the file
-    pass
+            fileInfo = randFullNameMain()
+            final_file_Status = fileBuilder(fileName, fileInfo)
+            sys.exit("Exiting.... Have a nice day")
 
 
-def headerPrompt(nameChoice: int)->str:
+def headerPrompt(nameChoice: int) -> str:
+    values = []
     choice = 'N'
     while choice == 'n' or 'N':
         print("What will the name of the file be?")
@@ -237,18 +255,28 @@ def headerPrompt(nameChoice: int)->str:
         if testName[-4] == '.':
             print("You added an extension accidentally.")
             testName2 = testName[:-4]
-            print(f"Did you mean: ")
+            print(f"Did you mean: {testName2}")
             print("Press Y: To confirm change")
-            print("Press N: To re-enter new file name")
+            print("Press N: To re-enter a new file name")
             choice = input(">")
             if choice == "Y" or choice == "y":
                 break
             os.system('clear')
-    values = headerBuild(testName2, nameChoice)
+            values = headerBuild(testName2, nameChoice)
+        print(f"Your file name: {testName}")
+        print("Press Y: To continue")
+        print("Press N: To re-enter a new file name")
+        choice = input(">")
+        if choice == "Y" or choice == "y":
+            break
+        os.system('clear')
+        values = headerBuild(testName, nameChoice)
+
+    # need to figure this out getting out of range error
     if values[0]:
         print("Filename ", values[1])
     else:
-        print("Error in generating file header")
+        raise ValueError("Error in generating file header. Please check your name convention")
 
 
 def headerBuild(headerTitle: str, nameChoice: int) -> list[bool, str]:
@@ -262,7 +290,8 @@ def headerBuild(headerTitle: str, nameChoice: int) -> list[bool, str]:
     """
 
     header = []
-    needs = [True]
+    needs = []
+    needs.append(True)
     # grab/create file name
     fileName = headerTitle + ".csv"
     match nameChoice:
@@ -285,7 +314,30 @@ def headerBuild(headerTitle: str, nameChoice: int) -> list[bool, str]:
     needs.append(fileName)
     return needs
 
+
+def fileBuilder(fileName: str, fileInfo: list[str]) -> bool:
+    # open the file
+    # check to make sure file is there
+    # open and add the info through a loop
+
+    fileStatus = bool
+    fileLoad = list[str]
+    if path.exists(fileName):
+        # open and add the info through a loop
+        fileLoad = zip(fileInfo)
+        with open(fileName, 'w') as s:
+            w = csv.writer(s)
+            for row in fileLoad:
+                w.writerow(row)
+            fileStatus = True
+            return fileStatus
+    return ValueError("Was not able to add names to the file")
+
+
 def main():
+    infoMenu()
+    infochoice()
+    menuSwitchBoard()
     headerPrompt()
 
 if __name__ == '__main__':
